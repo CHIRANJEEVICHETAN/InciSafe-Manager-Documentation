@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li>
                 <a 
-                  href="https://forum.inciSafeManager.com"
+                  href="https://discord.gg/SuZhmDB3"
                   className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,14 +63,22 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-              <li>Email: support@inciSafeManager.com</li>
-              <li>Phone: 1-800-123-4567</li>
+              <li>
+                <a href="mailto:support@inciSafeManager.com" className="hover:text-gray-900 dark:hover:text-white">
+                  Email: support@inciSafeManager.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:1-800-123-4567" className="hover:text-gray-900 dark:hover:text-white">
+                  Phone: 1-800-123-4567
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 text-center text-gray-600 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} InciSafe Manager. All rights reserved.</p>
+          <p> {new Date().getFullYear()} InciSafe Manager. All rights reserved.</p>
         </div>
       </div>
     </footer>

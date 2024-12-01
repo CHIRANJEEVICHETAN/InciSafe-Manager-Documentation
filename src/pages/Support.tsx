@@ -17,11 +17,15 @@ export default function Support() {
             <div className="space-y-4">
               <p className="flex items-center text-gray-600 dark:text-gray-400">
                 <span className="mr-2">📧</span>
-                Email: support@inciSafeManager.com
+                <a href="mailto:support@inciSafeManager.com" className="hover:text-gray-900 dark:hover:text-white">
+                  Email: support@inciSafeManager.com
+                </a>
               </p>
               <p className="flex items-center text-gray-600 dark:text-gray-400">
                 <span className="mr-2">📞</span>
-                Phone: 1-800-123-4567
+                <a href="tel:1-800-123-4567" className="hover:text-gray-900 dark:hover:text-white">
+                  Phone: 1-800-123-4567
+                </a>
               </p>
               <p className="flex items-center text-gray-600 dark:text-gray-400">
                 <span className="mr-2">💬</span>
@@ -67,4 +71,4 @@ export default function Support() {
       </motion.div>
     </div>
   );
-} 
+}

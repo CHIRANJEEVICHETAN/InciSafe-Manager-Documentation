@@ -32,13 +32,13 @@ export default function Navbar({ isDark, setIsDark }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0 flex items-center">
+            <Link to="/" className="flex-shrink-0 flex items-center justify-center">
               <img
-                className="h-8 w-auto"
-                src="/src/assets/images/InciSafeLogo.png"
+                className="h-12 w-auto my-2 md:my-0 pt-2 transform hover:scale-110 transition-transform duration-300"
+                src="/src/assets/images/InciSafeLogoDark.png"
                 alt="InciSafe Manager"
               />
-              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">
+              <span className="ml-3 text-xl font-bold text-gray-900 dark:text-white">
                 InciSafe Manager
               </span>
             </Link>
@@ -165,4 +165,4 @@ export default function Navbar({ isDark, setIsDark }: NavbarProps) {
       )}
     </nav>
   );
-} 
+}
