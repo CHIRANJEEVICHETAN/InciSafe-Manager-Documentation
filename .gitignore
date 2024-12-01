@@ -1,0 +1,36 @@
+# Node.js modules
+node_modules/
+package-lock.json
+
+# Vite build output
+dist/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TailwindCSS cache
+.tailwind-cache/
+
+# Miscellaneous
+*.log
+*.lock
