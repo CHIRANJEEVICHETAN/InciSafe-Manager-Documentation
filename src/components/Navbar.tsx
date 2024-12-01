@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/react/24/outline';
+import InciSafeLogo from '../assets/images/InciSafeLogoDark.png';
 import { GITHUB_REPO, LATEST_RELEASE_URL, DOWNLOAD_APK_URL } from '../constants';
 
 const navigation = [
@@ -35,7 +36,7 @@ export default function Navbar({ isDark, setIsDark }: NavbarProps) {
             <Link to="/" className="flex-shrink-0 flex items-center justify-center">
               <img
                 className="h-12 w-auto my-2 md:my-0 pt-2 transform hover:scale-110 transition-transform duration-300"
-                src="/src/assets/images/InciSafeLogoDark.png"
+                src={InciSafeLogo}
                 alt="InciSafe Manager"
               />
               <span className="ml-3 text-xl font-bold text-gray-900 dark:text-white">
